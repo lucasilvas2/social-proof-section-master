@@ -223,8 +223,12 @@ h1{
         margin-left: 0;
         flex-direction: column;
         width: 340px;
+        align-items: center;
     }
-
+    .rates > p{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
     .bottom-container{
         flex-direction: column;
         margin-top: 40px;
