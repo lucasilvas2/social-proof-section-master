@@ -82,6 +82,7 @@ h1{
     font-weight: 700;
     justify-content: space-around;
     position: static;
+    margin-left: 300px;
 }
 
 .rates{
@@ -92,6 +93,7 @@ h1{
     width: 425px;
     padding: 15px 0px 15px 10px;
     align-items: center;
+    
 }
 .rates > p{
     margin-left: 40px;
@@ -111,4 +113,65 @@ h1{
 
 .bestTech{
     margin-left: 60px;
+}
+
+.bottom-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.bottom-container > div{
+    width: 550px;
+}
+
+.card{
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+    padding: 20px;
+    height: 230px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card:not(:first-child){
+    margin-left: 30px;
+}
+.profile > img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.profile-info{
+    margin-left: 20px;
+}
+.name{
+    color: var(--White);
+    font-weight: 700;
+}
+
+.comment{
+    color: var(--White);
+    margin-top: 30px;
+}
+
+.verified{
+    color: var(--Soft-Pink);
+    font-weight: 400;
+}
+
+.irene{
+    margin-top: 40px;
+}
+
+.anne{
+    margin-top: 80px;
 }
