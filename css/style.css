@@ -27,7 +27,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center; 
-    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -178,7 +178,7 @@ h1{
 @media only screen and (max-width: 700px) {
     body{
         flex-direction: column;
-        background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+        background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
         text-align: center;
     }
     .main-container{
